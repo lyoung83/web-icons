@@ -23,7 +23,7 @@ module.exports = function(grunt) {
       prepare: ['<%=config.source%>'],
       process: ["<%=config.destination.html%>/<%=config.name%>.less", "<%=config.destination.html%>/<%=config.name%>.html", "<%=config.destination.temp%>"]
     },
-    
+
     // -- concat config ------------------------------------------------------
     concat: {
       options: {

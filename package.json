@@ -7,13 +7,14 @@
   "author": {
     "name": "amazingSurge",
     "email": "amazingSurge@yahoo.com",
-    "url": "amazingSurge.com"
+    "url": "https://amazingSurge.com"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:amazingSurge/web-icons.git"
   },
   "bugs": "https://github.com/amazingSurge/web-icons/issues",
+  "license": "MIT",
   "licenses": [
     {
       "type": "MIT",
@@ -21,9 +22,7 @@
     }
   ],
   "keywords": [],
-  "engines": {
-    "node": ">= 0.8.0"
-  },
+  "engines": {"node": ">= 0.8.0"},
   "devDependencies": {
     "grunt": "*",
     "grunt-contrib-clean": "*",
